@@ -1,6 +1,6 @@
 # cls-bluebird2.js
 
-# Bluebird promises with continuation-local-storage support
+# Patch Bluebird promise library to support continuation-local-storage
 
 ## Current status
 
@@ -11,6 +11,14 @@
 [![Coverage Status](https://img.shields.io/coveralls/overlookmotel/cls-bluebird2/master.svg)](https://coveralls.io/r/overlookmotel/cls-bluebird2)
 
 ## Usage
+
+This very much a work in progress and not ready for use yet.
+
+Patches [bluebird](https://www.npmjs.com/package/bluebird) to work with [continuation-local-storage](https://www.npmjs.com/package/continuation-local-storage).
+
+Only works with bluebird v3.x at present. And not tested, so may not work at all!
+
+Based on original code by [@arthurschreiber](https://github.com/arthurschreiber).
 
 ## Tests
 

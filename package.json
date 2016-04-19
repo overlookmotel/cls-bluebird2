@@ -1,7 +1,7 @@
 {
   "name": "cls-bluebird2",
-  "version": "0.0.0",
-  "description": "Bluebird promises with continuation-local-storage support",
+  "version": "0.0.1",
+  "description": "Patch Bluebird promise library to support continuation-local-storage",
   "main": "./lib/",
   "author": {
     "name": "Overlook Motel"
@@ -14,6 +14,8 @@
     "url": "https://github.com/overlookmotel/cls-bluebird2/issues"
   },
   "dependencies": {
+    "bluebird": "^3.3.5",
+    "shimmer": "^1.1.0"
   },
   "devDependencies": {
     "mocha": "^2.2.4",
