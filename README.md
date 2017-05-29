@@ -1,5 +1,7 @@
 # cls-bluebird2.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/cls-bluebird2.svg)](https://greenkeeper.io/)
+
 # Patch Bluebird promise library to support continuation-local-storage
 
 ## Current status
